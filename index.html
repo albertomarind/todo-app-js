@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script defer src="assets/js/index.js"></script>
+</head>
+<body>
+    <div class="todo">
+        <div class="todo-header">
+            <input id="todoInput" class="todo-input"  type="text" maxlength="20"><button id="todoAddButton">Agregar</button>
+        </div>
+        <div class="todo-body">
+            <div id="todoList" class="todo-list">
+            </div>
+        </div>
+        <div class="todo-footer">
+            <span>You have <span id="todoTaskCounter"></span> pending tasks</span><button id="todoClearAllButton">Clear All</button>
+        </div>
+    </div>
+</body>
+</html>
