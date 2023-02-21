@@ -2,9 +2,18 @@
     box-sizing: border-box;
 }
 
+html,body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .todo{
     width: 600px;
-    margin:0 auto;
     border:2px solid #cccccc;
 }
 
